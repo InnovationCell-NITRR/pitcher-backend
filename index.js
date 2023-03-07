@@ -50,9 +50,10 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
     origin: [
-      "https://innovationcell-nitrr.github.io/pitcher",
+      "https://innovationcell-nitrr.github.ior",
       "http://localhost:3000",
       "https://pitchersfork.netlify.app",
+      "https://main--pitchersfork.netlify.app",
       "https://admin.socket.io",
     ],
     credentials: true,
